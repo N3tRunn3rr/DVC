@@ -1,6 +1,14 @@
-.first-content {
+.first-content-img {
     background-image: url("./images/riviera.avif");
-    height: 750px;
+    height: 600px;
+    width: 100%;
+}
+
+.first-content-text {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    text-align: center;
 }
 
 .second-content {
