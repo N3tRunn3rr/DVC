@@ -1,0 +1,38 @@
+.first-content {
+    background-image: url("./images/riviera.avif");
+    height: 750px;
+}
+
+.second-content {
+    background-image: url("./images/key.avif");
+    height: 150px;
+}
+
+.goofy {
+    height: 300px;
+    width: 300px;
+}
+
+.save-content {
+    background-image: url("./images/donald.avif");
+}
+
+.sweepstakes-content {
+    background-image: url("./images/cinderella.avif");
+}
+
+.vacation-options {
+    background-image: url("./images/DVC-Homepage-Map.avif");
+}
+
+.events {
+    background-image: url("./images/pixar-pier-night-1x1-1.avif");
+}
+
+.magic {
+    background-image: url("./images/star-wars-galaxys-edge-1x1.avif");
+}
+
+.discover {
+    background-image: url("./images/familyreading.avif");
+}
