@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .navbar {
     list-style: none;
     display: flex;
@@ -231,7 +237,7 @@
     background-size: cover;
     background-position: center;
     height: 500px; 
-    width: 90%;
+    width: 60%;
     margin: auto;
 }
 
@@ -246,7 +252,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     gap: 0; 
-    width: 90%; 
+    width: 60%; 
   }
   
 
@@ -255,8 +261,12 @@
 .discover {
   background-size: cover;
   background-position: center;
-  height: 600px; 
+  height: 400px; 
   width: 100%;
+  color: white;
+  font-size: 24px;
+  padding-top: 20px;
+  padding-left: 20px;
 }
 
 .events {
@@ -304,14 +314,14 @@
   }
 
   .villa-image {
-    overflow: hidden; /* Hide overflowing content */
+    overflow: hidden; 
     width: 70%;
   }
   
   .villa-image img {
-    width: 100%; /* Ensure the image takes the full width of its container */
-    height: auto; /* Maintain the image's aspect ratio */
-    display: block; /* Remove any extra spacing or alignment issues */
+    width: 100%;
+    height: auto; 
+    display: block; 
   }
 
 div {
