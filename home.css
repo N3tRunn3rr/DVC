@@ -144,9 +144,166 @@ div {
 }
 
 .goofy {
-    height: 400px;
-    width: 800px;
+    height: 300px;
+    width: 300px;
 }
+
+.save-content {
+    background-image: url("./images/donald.avif");
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.save-content-text {
+    padding-top: 100px;
+    padding-left: 70px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.save-content-text h1 {
+    font-size: 50px;
+    color: white;
+    margin-top: 10px;
+}
+
+.save-content-text ul {
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.save-content-text li {
+    list-style: none;
+    color: white;
+}
+
+.sweepstakes-content {
+    background-image: url("./images/cinderella.avif");
+    height: 375px;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.sweepstakes-content-text {
+    padding-top: 75px;
+    padding-left: 70px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sweepstakes-content-text h1 {
+    font-size: 50px;
+    color: white;
+    margin-top: 10px;
+}
+
+.sweepstakes-content-text ul {
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}   
+
+.sweepstakes-content-text li {
+    list-style: none;
+    color: white;
+}
+
+.benefits-header {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.vacation-options {
+    display: grid;
+    grid-template-columns: 1fr; /* One column for all four images */
+    grid-template-rows: auto auto auto; /* Three rows for the bottom images */
+    gap: 0; /* No gap between grid items */
+    justify-items: center; /* Center items horizontally */
+    align-items: start; /* Align items to the top */
+
+}
+
+.vacation{
+    background-image: url("./images/DVC-Homepage-Map.avif");
+    background-size: cover;
+    background-position: center;
+    height: 500px; 
+    width: 60%;
+}
+
+.bottom-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 0; 
+    width: 100%; 
+  }
+  
+
+.events,
+.magic,
+.discover {
+  background-size: cover;
+  background-position: center;
+  height: 500px; 
+  width: 100%;
+}
+
+.events {
+    background-image: url("./images/pixar-pier-night-1x1-1.avif");
+}
+
+.magic {
+    background-image: url("./images/star-wars-galaxys-edge-1x1.avif");
+}
+
+.discover {
+    background-image: url("./images/familyreading.avif");
+}
+
+.disneyplus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.villa-header {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.villa-info {
+    display: grid;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    max-width: 800px;
+  }
+  
+  .villa-content {
+    padding: 20px;
+    max-width: 30%;
+    background-color: #8a2be2;
+    color: #fff; 
+  }
+  
+  .villa-content h3 {
+    font-size: 18px;
+  }
 
 
 .father {
