@@ -89,10 +89,6 @@
     font-size: 1em; 
 }
 
-.goofy {
-    height: 300px;
-    width: 300px;
-}
 
 .save-content {
     background-image: url("./images/donald.avif");
@@ -116,4 +112,68 @@
 
 .discover {
     background-image: url("./images/familyreading.avif");
+}
+
+div {
+    display: block;
+}
+
+@media screen and (max-width: 767px) {
+}
+
+.flex-container {
+    display: flex;
+    margin: zero;
+}
+
+.flex-child {
+    /* flex: 1; */
+    padding: 0px;
+    /* border: 1px black solid; */
+}
+
+.info-content {
+    border: 5px solid #0079bc;
+    box-sizing: border-box;
+    width: 75%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: flex; */
+    
+}
+
+.goofy {
+    height: 400px;
+    width: 800px;
+}
+
+
+.father {
+    max-height: 400px;
+    width: 400px;
+}
+
+.epcot {
+    max-height: 400px;
+    width: 400px;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: 100%;
+}
+
+.bottom-content .flex-child {
+    flex: 1;
+}
+
+.bottom-content {
+    align-items: center;
+    text-align: center;
+    max-height: 400px;
+}
+
+.explore {
+
 }
