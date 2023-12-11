@@ -75,6 +75,19 @@
     height: 125px;
 }
 
+.flex-container {
+    display: flex;
+    margin: zero;
+}
+
+.flex-child {
+    /* flex: 1; */
+    padding: 0px;
+    /* border: 1px black solid; */
+}
+
+
+
 .text-content {
     text-align: center;
 }
@@ -218,14 +231,22 @@
     background-size: cover;
     background-position: center;
     height: 500px; 
-    width: 60%;
+    width: 90%;
+    margin: auto;
 }
+
+.vaca {
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+
 
 .bottom-images {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     gap: 0; 
-    width: 100%; 
+    width: 90%; 
   }
   
 
@@ -234,7 +255,7 @@
 .discover {
   background-size: cover;
   background-position: center;
-  height: 500px; 
+  height: 600px; 
   width: 100%;
 }
 
@@ -297,20 +318,6 @@ div {
     display: block;
 }
 
-@media screen and (max-width: 767px) {
-}
-
-.flex-container {
-    display: flex;
-    margin: zero;
-}
-
-.flex-child {
-    /* flex: 1; */
-    padding: 0px;
-    /* border: 1px black solid; */
-}
-
 .info-content {
     border: 5px solid #0079bc;
     box-sizing: border-box;
@@ -321,4 +328,11 @@ div {
     /* display: flex; */
     
 }
+
+@media screen and (max-width: 767px) {
+}
+
+
+
+
 
