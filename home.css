@@ -1,3 +1,37 @@
+.navbar {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.navbar-logo img {
+    float: left;
+    max-width: 125px;
+    height: auto;
+    padding-top: 10px;
+}
+
+.navbar ul {
+    padding: 0;
+    display: flex; 
+}
+
+.navbar li {
+    list-style: none;
+    display: inline;
+    flex-direction: row;
+    text-align: center;
+    margin-right: 10px;
+    padding: 0 10px;
+    margin-left: 10px;
+}
+
+
+
+
 .first-content-img {
     background-image: url("./images/riviera.avif");
     height: 600px;
