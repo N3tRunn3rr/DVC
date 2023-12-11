@@ -2,18 +2,57 @@
     background-image: url("./images/riviera.avif");
     height: 600px;
     width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.first-content-text {
-    position: absolute;
-    top: 40%;
-    left: 40%;
+.first-content-text h1 {
+   font-size: 50px;
+    color: white;
     text-align: center;
+    padding-top: 150px;
+}
+
+.first-content-text p {
+    font-size: 20px;
+    color: #0079bc;
+    text-align: center;
+    padding-top: 20px;
 }
 
 .second-content {
-    background-image: url("./images/key.avif");
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
     height: 150px;
+    font-size:large;
+    box-sizing: border-box;
+    border: 1px solid rgb(211, 211, 211);
+    align-items: center;
+   text-align: center;
+   background-color: rgb(238, 251, 255);
+}
+
+.key-image {
+    height: 125px;
+}
+
+.text-content {
+    text-align: center;
+}
+
+.text-content h1 {
+    margin: 0;
+    font-size: 1.5em; 
+}
+
+.text-content p {
+    margin: 0;
+    font-size: 1em; 
 }
 
 .goofy {
