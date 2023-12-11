@@ -90,59 +90,6 @@
 }
 
 
-.save-content {
-    background-image: url("./images/donald.avif");
-}
-
-.sweepstakes-content {
-    background-image: url("./images/cinderella.avif");
-}
-
-.vacation-options {
-    background-image: url("./images/DVC-Homepage-Map.avif");
-}
-
-.events {
-    background-image: url("./images/pixar-pier-night-1x1-1.avif");
-}
-
-.magic {
-    background-image: url("./images/star-wars-galaxys-edge-1x1.avif");
-}
-
-.discover {
-    background-image: url("./images/familyreading.avif");
-}
-
-div {
-    display: block;
-}
-
-@media screen and (max-width: 767px) {
-}
-
-.flex-container {
-    display: flex;
-    margin: zero;
-}
-
-.flex-child {
-    /* flex: 1; */
-    padding: 0px;
-    /* border: 1px black solid; */
-}
-
-.info-content {
-    border: 5px solid #0079bc;
-    box-sizing: border-box;
-    width: 75%;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    /* display: flex; */
-    
-}
-
 .goofy {
     height: 300px;
     width: 300px;
@@ -304,6 +251,46 @@ div {
   .villa-content h3 {
     font-size: 18px;
   }
+
+  .villa-image {
+    overflow: hidden; /* Hide overflowing content */
+    width: 70%;
+  }
+  
+  .villa-image img {
+    width: 100%; /* Ensure the image takes the full width of its container */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove any extra spacing or alignment issues */
+  }
+
+div {
+    display: block;
+}
+
+@media screen and (max-width: 767px) {
+}
+
+.flex-container {
+    display: flex;
+    margin: zero;
+}
+
+.flex-child {
+    /* flex: 1; */
+    padding: 0px;
+    /* border: 1px black solid; */
+}
+
+.info-content {
+    border: 5px solid #0079bc;
+    box-sizing: border-box;
+    width: 75%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: flex; */
+    
+}
 
 
 .father {
