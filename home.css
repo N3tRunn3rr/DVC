@@ -13,11 +13,15 @@
     justify-content: center;
 }
 
+.navbar-logo {
+    padding-bottom: 20px;
+}
+
 .navbar-logo img {
     float: left;
     max-width: 125px;
     height: auto;
-    padding-top: 10px;
+    
 }
 
 .navbar ul {
@@ -31,16 +35,23 @@
     flex-direction: row;
     text-align: center;
     margin-right: 10px;
-    padding: 0 10px;
+    padding-top: 5px;
     margin-left: 10px;
 }
 
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
 
 
 
 .first-content-img {
     background-image: url("./images/riviera.avif");
-    height: 600px;
+    height: 700px;
     width: 100%;
     overflow: hidden;
     background-size: cover;
@@ -49,23 +60,34 @@
 }
 
 .first-content-text h1 {
-   font-size: 50px;
+   font-size: 75px;
     color: white;
     text-align: center;
     padding-top: 150px;
 }
 
-.first-content-text p {
-    font-size: 20px;
+.first-content-text a {
+    text-decoration: none;
     color: #0079bc;
+}
+
+.first-content-text a:hover {
+    text-decoration: underline;
+}
+
+.first-content-text p {
+    font-size: 45px;
+    color: white;
     text-align: center;
     padding-top: 20px;
+    text-decoration: none;
 }
 
 .second-content {
     display: flex;
     justify-content: center;
-    max-width: 600px;
+    max-width: 900px;
+    max-height: 600px;
     margin: 0 auto;
     padding: 20px;
     height: 150px;
@@ -81,6 +103,20 @@
     height: 125px;
 }
 
+.key-button {
+    color: white;
+    float: right;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    height: 40px;
+    width: auto;
+    padding: 5px 30px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: #0065a3;
+}
+
 .flex-container {
     display: flex;
     margin: zero;
@@ -92,20 +128,21 @@
     /* border: 1px black solid; */
 }
 
-
-
-.text-content {
-    text-align: center;
-}
-
-.text-content h1 {
+.second-text-content h1 {
     margin: 0;
     font-size: 1.5em; 
+    float: left;
+    margin-bottom: 10px;
+    padding-left: 20px;
 }
 
-.text-content p {
+.second-text-content p {
     margin: 0;
+    padding-left: 20px;
     font-size: 1em; 
+    float: left;
+    text-align: left;
+    line-height: 1.2;
 }
 
 
@@ -161,12 +198,19 @@
     padding-left: 70px;
     font-size: 24px;
     margin-bottom: 20px;
+    line-height: 28px;
+}
+
+.save-content-text p {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .save-content-text h1 {
     font-size: 50px;
     color: white;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .save-content-text ul {
@@ -178,6 +222,14 @@
 .save-content-text li {
     list-style: none;
     color: white;
+}
+
+.save-content-text a {
+    color: white;
+}
+
+.save-content-text a:hover {
+    text-decoration: underline;
 }
 
 .sweepstakes-content {
@@ -199,6 +251,12 @@
     margin-bottom: 20px;
 }
 
+.sweepstakes-content-text p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
 .sweepstakes-content-text h1 {
     font-size: 50px;
     color: white;
@@ -214,6 +272,14 @@
 .sweepstakes-content-text li {
     list-style: none;
     color: white;
+}
+
+.sweepstakes-content-text a {
+    color: white;
+}
+
+.sweepstakes-content-text a:hover {
+    text-decoration: underline;
 }
 
 .benefits-header {
@@ -238,7 +304,16 @@
     background-position: center;
     height: 500px; 
     width: 60%;
+    padding-left: 20px;
+    padding-top: 20px;
     margin: auto;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.vacation:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .vaca {
@@ -252,7 +327,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     gap: 0; 
-    width: 60%; 
+    width: 60%;
+    overflow: hidden;
   }
   
 
@@ -267,6 +343,23 @@
   font-size: 24px;
   padding-top: 20px;
   padding-left: 20px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.events:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.magic:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.discover:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .events {
@@ -291,6 +384,14 @@
     text-align: center;
     margin-top: 50px;
     margin-bottom: 10px;
+}
+
+.villa-header a {
+    text-decoration: none;
+}
+
+.villa-header a:hover {
+    text-decoration: underline;
 }
 
 .villa-sub-header {
@@ -362,7 +463,40 @@
 .from-our-members {
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.member-heading {
+    margin-bottom: 20px;
+}
+
+
+.from-our-members a {
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+#myVid {
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.benefits-header {
+    margin-bottom: 20px;
+}
+
+.benefits-header h1 {
+    margin-bottom: 20px;
+}
+
+.benefits-header a  {
+    text-decoration: none;
+}
+
+.benefits-header a:hover {
+    text-decoration: underline;
 }
 
 div {
