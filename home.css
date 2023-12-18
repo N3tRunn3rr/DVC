@@ -47,8 +47,6 @@
     text-decoration: underline;
 }
 
-
-
 .first-content-img {
     background-image: url("./images/riviera.avif");
     height: 700px;
@@ -517,7 +515,7 @@ div {
 @media screen and (max-width: 767px) {
 }
 
-ul {
+#explore {
     width: 100%;
     margin-bottom: 20px;
     list-style-type: disc;
@@ -525,7 +523,62 @@ ul {
     margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
-    border: 1px solid black;
+    border: 1px solid black;    
+}
+
+#find-destinations {
+    width: 100%;
+    margin-bottom: 20px;
+    list-style-type: disc;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid black;    
+}
+
+#plan-vacations {
+    width: 100%;
+    margin-bottom: 20px;
+    list-style-type: disc;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid black;    
+}
+
+#help-contact {
+    width: 100%;
+    margin-bottom: 20px;
+    list-style-type: disc;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid black;    
+}
+
+#news-press {
+    width: 100%;
+    margin-bottom: 20px;
+    list-style-type: disc;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid black;    
+}
+
+#dvc-member {
+    width: 100%;
+    margin-bottom: 20px;
+    list-style-type: disc;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid black;    
 }
 
 li {
