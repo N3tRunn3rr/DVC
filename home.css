@@ -517,7 +517,36 @@ div {
 @media screen and (max-width: 767px) {
 }
 
+ul {
+    width: 100%;
+    margin-bottom: 20px;
+    list-style-type: disc;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid black;
+}
 
+li {
+    line-height: 1.5;
+}
+
+li a {
+    text-decoration: none;
+    color: #0079bc;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.footer-info {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 
 
 
