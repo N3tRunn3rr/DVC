@@ -359,6 +359,12 @@
     display: block; 
   }
 
+.from-our-members {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
 div {
     display: block;
 }
