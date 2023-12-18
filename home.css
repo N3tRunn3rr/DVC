@@ -290,7 +290,13 @@
 .villa-header {
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+}
+
+.villa-sub-header {
+    text-align: center;
+    margin-top: 20px;
+    list-style: none;
 }
 
 .villa-info {
@@ -300,19 +306,47 @@
     background-color: #fff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    max-width: 800px;
+    max-width: 1450px;
+    max-height: 450px;
   }
   
   .villa-content {
     padding: 20px;
-    max-width: 30%;
-    background-color: #8a2be2;
+    max-width: 35%;
+    background-color: #563a6a;
     color: #fff; 
   }
   
   .villa-content h3 {
-    font-size: 18px;
+    font-size: 28px;
+    margin-top: 50px;
+    padding-left: 55px;
   }
+
+.villa-content p {
+    font-size: 20px;
+    padding-left: 55px;
+    line-height: 28px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.villa-button {
+    border: 2px solid #fff;
+    background-color: inherit;
+    color: #fff;
+    padding: 13px 25px;
+    margin-left: 55px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+.villa-button:hover {
+    text-decoration: underline;
+}
 
   .villa-image {
     overflow: hidden; 
