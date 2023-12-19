@@ -11,16 +11,13 @@
     margin: 0;
     padding: 0;
     justify-content: center;
-}
-
-.navbar-logo {
-    padding-bottom: 20px;
+    align-items: center;
 }
 
 .navbar-logo img {
-    float: left;
-    max-width: 125px;
+    max-width: 175px;
     height: auto;
+    margin-right: 10px;
     
 }
 
@@ -35,8 +32,6 @@
     flex-direction: row;
     text-align: center;
     margin-right: 10px;
-    padding-top: 5px;
-    margin-left: 10px;
 }
 
 .navbar a {
@@ -173,10 +168,6 @@
     align-items: center;
     text-align: center;
     max-height: 400px;
-}
-
-.explore {
-
 }
 
 .save-content {
@@ -601,5 +592,78 @@ li a:hover {
 
 }
 
+.assistance {
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+    padding: 30px;
+}
+
+
+.assistance::before,
+.assistance::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    width: 60%;
+    background: linear-gradient(to right, transparent, #D0D7DE, transparent);
+}
+
+.assistance::before {
+    top: 0;
+}
+
+.assistance::after {
+    bottom: 0;
+}
+
+.assistance p {
+    line-height: 1.2;
+}
+
+.call-18 {
+    font-size: 12px;
+    margin-top: 10px;
+}
+.disclaimer {
+    text-align: center;
+    display: block;
+    max-width: 40%;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.disclaimer h3 {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.disclaimer img {
+    max-width: 100%;
+    height: auto;
+}
+
+.disclaimer p {
+    font-size: 13px;
+    word-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.disclaimer::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    width: 60%;
+    background: linear-gradient(to right, transparent, #D0D7DE, transparent);
+}
 
 
