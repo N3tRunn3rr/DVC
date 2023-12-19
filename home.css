@@ -726,7 +726,7 @@ div h2 {
     max-width: 50%;
     width: 100%;
     max-height: 150px;
-    padding: 0 15px; 
+    padding: 15px 15px;
     margin: 0 auto;
     border: 1px solid #d1d1d1;  
     background-color: rgb(238, 251, 255);
@@ -802,4 +802,31 @@ div h2 {
 .req-info p {
     font-size: 12px;
     padding-bottom: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.footer-links {
+    margin-bottom: 5px; /* Reduce margin-bottom to decrease spacing between links */
+}
+
+.footer-links a {
+    text-decoration: underline;
+    margin: 0 5px; /* Reduce margin around links */
+    font-size: 12px; /* Reduce the font size of the links */
+    color: #333; /* Link color */
+}
+
+.footer-links a:hover {
+    text-decoration: none;
+}
+
+.copyright {
+    font-size: 12px; /* Reduce the font size of the copyright text */
+    color: #666; /* Copyright text color */
+    margin-top: 20px;
 }
