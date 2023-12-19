@@ -283,6 +283,11 @@
     margin-bottom: 50px;
 }
 
+.top-tile {
+    width: 100%;
+    overflow: hidden;
+}
+
 .vacation-options {
     display: grid;
     grid-template-columns: 1fr; /* One column for all four images */
@@ -298,7 +303,7 @@
     background-size: cover;
     background-position: center;
     height: 500px; 
-    width: 60%;
+    width: 100%;
     padding-left: 20px;
     padding-top: 20px;
     margin: auto;
@@ -309,12 +314,14 @@
 .vacation:hover {
     transform: scale(1.1);
     cursor: pointer;
+    overflow: hidden;
 }
 
 .vaca {
-    width: 100%;
+    width: 60%;
     margin: auto;
     justify-content: center;
+    overflow: hidden;
 }
 
 
@@ -356,6 +363,22 @@
     transform: scale(1.1);
     cursor: pointer;
 }
+
+/* img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    background: transparent;
+    border: 0;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transform: translateX(0) translateY(0) translateZ(0) scaleX(1.004) scaleY(1.004) scaleZ(1.004);
+    transition: opacity 1s,transform 1s;
+} */
 
 .events {
     background-image: url("./images/pixar-pier-night-1x1-1.avif");
