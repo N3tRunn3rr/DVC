@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navbar {
@@ -521,9 +522,9 @@ div {
     list-style-type: disc;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 1px solid black;    
+    padding-left: 0px;
+    padding-right: 15px;
+    /* border: 1px solid black;     */
 }
 
 #find-destinations {
@@ -532,9 +533,9 @@ div {
     list-style-type: disc;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 1px solid black;    
+    padding-left: 0px;
+    padding-right: 15px;
+    /* border: 1px solid black;     */
 }
 
 #plan-vacations {
@@ -543,9 +544,9 @@ div {
     list-style-type: disc;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 1px solid black;    
+    padding-left: 0px;
+    padding-right: 15px;
+    /* border: 1px solid black;     */
 }
 
 #help-contact {
@@ -554,9 +555,9 @@ div {
     list-style-type: disc;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 1px solid black;    
+    padding-left: 0px;
+    padding-right: 15px;
+    /* border: 1px solid black;     */
 }
 
 #news-press {
@@ -565,9 +566,9 @@ div {
     list-style-type: disc;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 1px solid black;    
+    padding-left: 0px;
+    padding-right: 15px;
+    /* border: 1px solid black;     */
 }
 
 #dvc-member {
@@ -576,18 +577,23 @@ div {
     list-style-type: disc;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 1px solid black;    
+    padding-left: 0px;
+    padding-right: 15px;
+    /* border: 1px solid black;     */
 }
 
 li {
-    line-height: 1.5;
+    line-height: 20px;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 6px;
+    list-style: none;
+    text-align: left;
 }
 
 li a {
     text-decoration: none;
-    color: #0079bc;
+    color: black;;
 }
 
 li a:hover {
@@ -596,10 +602,27 @@ li a:hover {
 
 .footer-info {
     width: 70%;
+    margin-bottom:6px;
     margin-left: auto;
     margin-right: auto;
-
+    text-align: center;
 }
 
+div h2 {
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 6px;
+    font-weight: 550;
+}
+
+.list {
+    float: left;
+    padding: 0 15px;
+    width: 25%;
+    text-align: left;
+    margin: 19px 0 0;
+    font-weight: 400;
+    vertical-align: baseline;
+}
 
 
