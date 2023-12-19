@@ -85,7 +85,7 @@
     margin: 0 auto;
     padding: 20px;
     height: 150px;
-    font-size:large;
+    font-size:medium;
     box-sizing: border-box;
     border: 1px solid rgb(211, 211, 211);
     align-items: center;
@@ -100,9 +100,12 @@
 .key-button {
     color: white;
     float: right;
-    margin-bottom: 40px;
-    margin-right: 20px;
+    margin-bottom: 80px;
+    padding-bottom: 20px;
+    margin-right: 10px;
     height: 40px;
+    position: relative;
+    bottom: 20px;
     width: auto;
     padding: 5px 30px;
     font-size: 15px;
@@ -124,9 +127,11 @@
 
 .second-text-content h1 {
     margin: 0;
-    font-size: 1.5em; 
+    font-size: 1.2em; 
     float: left;
+    margin-top: 60px;
     margin-bottom: 10px;
+    padding-top: 20px;
     padding-left: 20px;
 }
 
@@ -136,7 +141,7 @@
     font-size: 1em; 
     float: left;
     text-align: left;
-    line-height: 1.2;
+    line-height: 1.4;
 }
 
 
@@ -579,7 +584,6 @@ li {
     margin-top: 0px;
     margin-bottom: 6px;
     list-style: none;
-    text-align: left;
 }
 
 li a {
